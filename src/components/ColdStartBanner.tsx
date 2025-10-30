@@ -22,7 +22,7 @@ export const ColdStartBanner: React.FC = () => {
             </svg>
           </div>
         </div>
-        
+
         <div className="flex-1 min-w-0">
           <div className="flex items-center space-x-2 mb-2">
             <h3 className="text-sm font-semibold text-amber-800 dark:text-amber-200">
@@ -32,13 +32,13 @@ export const ColdStartBanner: React.FC = () => {
               Cold Start Info
             </span>
           </div>
-          
+
           <p className="text-sm text-amber-700 dark:text-amber-300 mb-3 leading-relaxed">
-            This API is hosted on <strong>Render's free tier</strong>, which means the server may need 
-            <strong className="text-amber-800 dark:text-amber-200"> 30-60 seconds</strong> to "wake up" 
+            The backend api's are hosted on <strong>Render's free tier</strong>, which means the server may need
+            <strong className="text-amber-800 dark:text-amber-200"> 30-60 seconds</strong> to "wake up"
             if it hasn't been used recently. Don't panic if the first request takes longer! ⏰
           </p>
-          
+
           <div className="flex items-center space-x-4 text-xs text-amber-600 dark:text-amber-400">
             <div className="flex items-center space-x-1">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
@@ -50,7 +50,7 @@ export const ColdStartBanner: React.FC = () => {
             </div>
           </div>
         </div>
-        
+
         <button
           onClick={handleDismiss}
           className="flex-shrink-0 p-1.5 text-amber-500 hover:text-amber-700 dark:text-amber-400 dark:hover:text-amber-200 hover:bg-amber-100 dark:hover:bg-amber-900/30 rounded-lg transition-colors duration-200"
